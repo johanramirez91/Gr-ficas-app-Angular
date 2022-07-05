@@ -23,6 +23,10 @@ export class MenuComponent {
       ruta: '/graficas/dona',
       texto: 'Dona',
     },
+    {
+      ruta: '/graficas/donahttp',
+      texto: 'Dona Http',
+    },
   ];
   constructor() {}
 }
