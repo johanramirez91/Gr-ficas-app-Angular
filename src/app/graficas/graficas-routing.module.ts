@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BarrasComponent } from './pages/barras/barras.component';
 import { BarrasDobleComponent } from './pages/barras-doble/barras-doble.component';
 import { DonaComponent } from './pages/dona/dona.component';
+import { DonaHttpComponent } from './pages/dona-http/dona-http.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,10 @@ const routes: Routes = [
       {
         path: 'dona',
         component: DonaComponent,
+      },
+      {
+        path: 'donahttp',
+        component: DonaHttpComponent,
       },
       {
         path: '**',
